@@ -100,9 +100,10 @@ const CurrencyConverter = () => {
       <div className="flex justify-end mt-6">
         <button
           onClick={convertCurrency}
-          className="px-5 py-2 rounded-md text-white focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+          className="px-5 py-2 bg-indigo-600 text-white rounded-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
         >
           {converting ? "Converting..." : "Convert"}
+          {/* Convert */}
         </button>
       </div>
 
